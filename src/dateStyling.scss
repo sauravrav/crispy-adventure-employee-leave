@@ -1,0 +1,65 @@
+.styled{
+  .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside){
+      background-color: yellow;
+      color: blue;
+  }
+
+  .inputReason{
+    display: initial;
+  }
+}
+.styledSubmitted{
+  .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside){
+    background-color: yellow;
+    color: blue;
+}
+  .DayPicker-Month{pointer-events: none;}
+}
+.ttf{
+  .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside){
+      background-color: rgb(255, 94, 0);
+  }
+  .inputReason {
+    display: none;
+  }
+  button{
+    display: none;
+  }
+  .DayPicker-Month{pointer-events: none;}
+}
+.ttt{
+  .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside){
+      background-color: rgb(32, 218, 32);
+  }
+  .inputReason{
+    display: none;
+  }
+  button{
+    display: none;
+  }
+  .DayPicker-Month{pointer-events: none;}
+}
+
+.warning{
+  position: absolute;
+  top: 20px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+}
+#show{
+  display: initial;
+}
+#notShow{
+  display: none;
+  pointer-events: none;
+}
+.show{
+  display: initial;
+}
+.notShow{
+  display: none;
+  pointer-events: none;
+}
+
